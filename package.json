@@ -1,0 +1,45 @@
+{
+  "name": "middleware-bot",
+  "version": "0.0.1",
+  "description": "It's a middleware to communicate with the Telegram API",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lab21k.com.br:s4c/middleware-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "middleware",
+    "bot",
+    "chat",
+    "service"
+  ],
+  "author": "21k",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "1.15.2",
+    "compression": "1.6.2",
+    "connect": "3.5.0",
+    "connect-route": "^0.1.5",
+    "connect-timeout": "1.8.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "morgan": "1.7.0",
+    "node-uuid": "^1.4.7",
+    "redis": "^2.5.3",
+    "request-json": "^0.6.1",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "bunyan": "^1.8.1",
+    "errorhandler": "1.5.0"
+  }
+}
