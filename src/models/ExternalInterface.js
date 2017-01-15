@@ -55,11 +55,10 @@ class ExternalInterface {
                 }
             ));
         } else if (method === 'group_message') {
-            console.log('Group message', data);
             async.parallel(
                 _.map(this.registeredPeers,(peer => {
                     return callback => {
-                        peer.post(`grupos/${data.id}/mensagens`, data, (err, req) => {
+                        peer.post(`groups/${data.id}/messages`, data, (err, req) => {
                             if (err) logger.error(err);
                             callback(err);
                         });
