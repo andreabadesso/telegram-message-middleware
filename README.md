@@ -1,6 +1,6 @@
 # middleware-bot
 
-A middleware to handle the communication between the S4C system and the Telegram API.
+A middleware to handle the communication from Telegram API.
 
 ## Usage
 
